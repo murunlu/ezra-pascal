@@ -82,4 +82,28 @@ window.STORIES = [
       "Ezra: So where's YOUR signature? Pascal: On my tag. Don't look.",
     ] }],
   },
+  {
+    slug: 'next-door', title: 'Next Door', date: '2026-10-10',
+    blurb: 'A new kid moves in. She has glasses, freckles, and a catapult.',
+    strips: [
+      { id: 's9', text: [
+        'Ezra: A new kid! Pascal, this is a historic day. Pascal: Say hi.',
+        "Ezra holds up a sign: Welcome new kid! I am Ezra. I have a bear. Hazel stares.",
+        "Hazel holds up her own sign: I have a catapult. Ezra's jaw drops.",
+        'Ezra (whispering): Pascal. We need to be her friend immediately. Pascal: Start with "hi."',
+      ] },
+      { id: 's10', text: [
+        "Ezra: My fort goes HERE! Hazel: MY fort goes here! Pascal: It's one tree.",
+        "Two forts on one tree. Signs: Ezra's fort, no Hazels. Hazel's fort, no Ezras.",
+        "Hazel's catapult fires a water balloon. SPLOOSH!",
+        'Ezra (dripping): This means war. Pascal: It meant war two panels ago.',
+      ] },
+      { id: 's11', text: [
+        "CRASH! Ezra's fort falls apart in the storm. Ezra: My fort!",
+        "Ezra and Pascal huddle in the rain. Hazel: ...There's room in mine.",
+        "All three squeeze under one blanket in Hazel's fort while it storms outside.",
+        "The sign reads: Ezra & Hazel's Fort. No storms. Ezra: A friend is someone who shares their fort in the rain. Pascal: And their catapult? Hazel: Don't push it.",
+      ] },
+    ],
+  },
 ];
