@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ezra &amp; Pascal</title>
+<meta name="description" content="Ezra & Pascal: a comic about a six-year-old boy, his stuffed bear who is very much alive, and a very big backyard.">
+<link rel="preload" href="fonts/patrick-hand-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/caveat-brush-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="img/pascal.webp">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="wobble"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter>
+  <filter id="wobble-big"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="8"/><feDisplacementMap in="SourceGraphic" scale="6"/></filter>
+</svg>
+
+<header class="masthead">
+  <a class="title-link" href="#/">
+    <img class="mast-char mast-ezra" src="img/ezra.webp" alt="">
+    <h1 class="title">Ezra <span class="amp">&amp;</span> Pascal</h1>
+    <img class="mast-char mast-pascal" src="img/pascal.webp" alt="">
+  </a>
+  <p class="tagline">A boy, his bear, and a very big backyard.</p>
+  <nav class="nav">
+    <a href="#/" data-nav="home">Comics</a>
+    <a href="#/meet" data-nav="meet">Meet the gang</a>
+    <a href="#/all" data-nav="all">All stories</a>
+  </nav>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="footer">
+  <p>Drawn with ink, watercolor, and a lot of grass stains.</p>
+  <p class="small">&copy; <span id="year"></span> Ezra &amp; Pascal. All rights reserved.</p>
+</footer>
+
+<script src="stories.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
